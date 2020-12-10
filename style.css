@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+}
+
+.maindiv{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#namefield{
+	font-size: 30px;
+	border-color: red;
+	border-radius: 50px;
+	height: 20px;
+	width: 300px;
+	outline: none;
+
+}
+
+.btn{
+	border-radius: 30px;
+	height: 30px;
+	width: 200px;
+	border: none;
+	outline: none;
+	color: white;
+	background: #656565;
+	font-size: 20px;
+	box-shadow: 20px 20px;
+
+}
+
+.btn:hover{
+	border: 2px;
+	border-color: white;
+	background-color:  black;
+
+}

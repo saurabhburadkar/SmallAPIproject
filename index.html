@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>API</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+</head>
+<body>
+	<h1>WHAT DOES YOUR NAME SAY?</h1>
+	<div class="maindiv">
+		<div class="fielddiv">
+			<label>Enter your name</label><br><br>
+			<input type="text" id="namefield" ><br><br>
+		</div>
+
+		<div class="imgdiv">
+			<img src="n1.jpg" width="200px" height="200px" id="img">
+		</div><br>
+
+		<button class="btn" onclick="btnclick()" >Click Me</button>
+	</div>
+
+	<h1 id="boss"></h1>
+
+<script>
+	
+	
+
+	var b=document.getElementById("img");
+
+	function btnclick(){
+		var a=document.getElementById("namefield").value;
+		document.getElementById("img").src=`https://joeschmoe.io/api/v1/,${a}`;
+		
+
+	}
+
+</script>
+</body>
+</html>
